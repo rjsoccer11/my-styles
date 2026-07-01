@@ -1526,12 +1526,12 @@ section.section.header.sticky.is-visible .row-container {
     }
 
     .row.vertical-center.space-between.left-and-right-padding.header:first-child {
-        padding-top: 115px;
-        padding-bottom: 70px;
+        padding-top: 0px;
+        padding-bottom: 00px;
     }
 
     .row.vertical-center.space-between.left-and-right-padding.header:last-child {
-        padding-bottom: 110px;
+        padding-bottom: 0px;
     }
 
     .svg.menu-button-icon svg {
@@ -1546,17 +1546,17 @@ section.section.header.sticky.is-visible .row-container {
     }
 
     .row.vertical-center.space-between.left-and-right-padding.header:last-child .header-buttons {
-        justify-content: center;
+        justify-content: flex-end;
     }
 
     section.section.header.sticky .row.vertical-center.space-between.left-and-right-padding.header:first-child {
-        padding-top: 30px;
-        padding-bottom: 15px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     section.section.header.sticky .row.vertical-center.space-between.left-and-right-padding.header:last-child {
-        padding-top: 15px;
-        padding-bottom: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .menu-popup-sidebar {
@@ -2442,8 +2442,8 @@ section.section.header.sticky.is-visible .row-container {
 
 @media only screen and (max-width: 480px) {
     .row.vertical-center.space-between.left-and-right-padding.header:first-child {
-        padding-top: 85px;
-        padding-bottom: 50px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .container.with-left-pattern {
@@ -2466,7 +2466,7 @@ section.section.header.sticky.is-visible .row-container {
     }
 
     .row.vertical-center.space-between.left-and-right-padding.header:last-child {
-        padding-bottom: 70px;
+        padding-bottom: 0px;
     }
 
     .button {
@@ -2962,8 +2962,8 @@ section.section.header.sticky.is-visible .row-container {
 
 @media only screen and (max-width: 375px) {
     .row.vertical-center.space-between.left-and-right-padding.header:first-child {
-        padding-top: 70px;
-        padding-bottom: 45px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .svg.header-logo svg {
@@ -2987,7 +2987,7 @@ section.section.header.sticky.is-visible .row-container {
     }
 
     .row.vertical-center.space-between.left-and-right-padding.header:last-child {
-        padding-bottom: 60px;
+        padding-bottom: 0px;
     }
 
     .row.left-and-right-padding.banner-content {
