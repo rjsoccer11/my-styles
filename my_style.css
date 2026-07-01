@@ -401,10 +401,6 @@ body.no-scroll {
     display: inline-block;
 }
 
-.section.header.sticky .row.header:not(.mobile) {
-    padding-top: 14px;
-    padding-bottom: 14px;
-}
 .section.header.sticky.is-visible a.button.primary-color {
     background: #fff;
 }
