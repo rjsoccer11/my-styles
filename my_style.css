@@ -424,6 +424,9 @@ section.section.header.sticky.is-visible a.link-block.back-button {
 .section.header.sticky {
     padding-top: 0;
 }
+section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
+    left: -20px;
+}
 
 
 @media only screen and (max-width: 1440px) {
