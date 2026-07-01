@@ -60,11 +60,6 @@ ul.nav-menu-list li .nav-menu-link:hover::before {
     z-index: -1;
 }
 
-section.section.header.sticky .row.vertical-center.space-between.left-and-right-padding.header {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
 h4.h4.subtitle:before {
     content: "";
     width: 100%;
@@ -410,7 +405,23 @@ body.no-scroll {
     padding-top: 14px;
     padding-bottom: 14px;
 }
-
+.section.header.sticky.is-visible a.button.primary-color {
+    background: #fff;
+}
+.section.header.sticky.is-visible .row-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+section.section.header.sticky.is-visible .row-container {
+    background: #80d2fd;
+    position: relative;
+}
+.section.header.sticky.is-visible svg.header-logo-icon {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: -23px;
+}
 
 
 @media only screen and (max-width: 1440px) {
