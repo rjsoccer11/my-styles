@@ -418,6 +418,12 @@ section.section.header.sticky.is-visible .row-container {
     height: 100%;
     left: -23px;
 }
+section.section.header.sticky.is-visible a.link-block.back-button {
+    display: none;
+}
+.section.header.sticky {
+    padding-top: 0;
+}
 
 
 @media only screen and (max-width: 1440px) {
