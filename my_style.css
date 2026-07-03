@@ -2118,7 +2118,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .owsp-banner {
-        padding-left: 65px;
+        padding-left: 55px;
     }
 
     body.single-page-our-works .section.no-logo-header .row.vertical-center.space-between.left-and-right-padding {
@@ -2127,7 +2127,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .owsp-banner-title {
-        padding: 20px 65px 30px;
+        padding: 20px 55px 30px;
     }
 
     .owsp-banner .svg.avid-logo.owsp svg {
@@ -2147,7 +2147,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .owsp-content-block {
-        padding: 75px 65px 50px;
+        padding: 75px 55px 50px;
     }
 
     .owsp-feat-item {
@@ -2199,11 +2199,11 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .owsp-history-block {
-        padding: 50px 65px 45px;
+        padding: 50px 55px 45px;
     }
 
     .related-projects {
-        padding: 45px 65px;
+        padding: 45px 55px;
     }
 
     .svg.banner-logo {
@@ -2298,11 +2298,11 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .owsp-content-block {
-        padding: 60px 65px 85px;
+        padding: 60px 55px 85px;
     }
 
     .owsp-content-block {
-        padding: 60px 65px 85px;
+        padding: 60px 55px 85px;
         flex-wrap: wrap;
         gap: 30px;
     }
@@ -2813,10 +2813,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
         padding-right: 45px;
     }
 
-    .owsp-banner {
-        padding-left: 48px;
-    }
-
     .owsp-banner-image {
         max-height: 100%;
         min-height: 435px;
@@ -2829,7 +2825,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .owsp-banner-title {
-        padding: 35px 48px 40px;
+        padding: 35px 55px 40px;
     }
 
     .owsp-banner .svg.avid-logo.owsp svg {
@@ -2842,7 +2838,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .owsp-content-block {
-        padding: 45px 48px 60px;
+        padding: 45px 55px 60px;
         flex-wrap: wrap;
         gap: 30px;
     }
@@ -2853,11 +2849,11 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .owsp-history-block {
-        padding: 40px 48px 35px;
+        padding: 40px 55px 35px;
     }
 
     .related-projects {
-        padding: 40px 48px;
+        padding: 40px 55px;
     }
 
     .cu-info-block {
@@ -2937,7 +2933,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .owsp-banner-title {
-        padding: 30px 40px 35px;
+        padding: 30px 45px 35px;
     }
 
     .owsp-banner .svg.avid-logo.owsp svg {
@@ -2950,7 +2946,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .owsp-content-block {
-        padding: 40px 40px 50px;
+        padding: 40px 45px 50px;
         flex-wrap: wrap;
         gap: 25px;
     }
@@ -2961,11 +2957,11 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .owsp-history-block {
-        padding: 35px 40px 30px;
+        padding: 35px 45px 30px;
     }
 
     .related-projects {
-        padding: 40px 40px;
+        padding: 40px 45px;
     }
 }
 
@@ -3326,7 +3322,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .owsp-banner-title {
-        padding: 25px 40px 30px;
+        padding: 25px 35px 30px;
     }
 
     .svg.avid-logo.owsp.w-embed {
@@ -3356,7 +3352,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .related-projects {
-        padding: 45px 40px;
+        padding: 45px 35px;
     }
 
     .h3.owsp-rp-title {
