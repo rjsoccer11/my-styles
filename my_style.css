@@ -551,7 +551,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .nav-menu-link {
-        letter-spacing: -1px;
         font-size: 24px;
     }
 
@@ -567,7 +566,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .nav-ext-link-text {
-        letter-spacing: .3px;
         font-size: 20px;
     }
 
@@ -583,7 +581,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .h1-title.banner-h1 {
-        letter-spacing: -1.5px;
         max-width: 540px;
         font-size: 36px;
     }
@@ -620,7 +617,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .h2-title {
-        letter-spacing: -1.5px;
         font-size: 36px;
     }
 
@@ -634,7 +630,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .pharagraph {
-        letter-spacing: -.6px;
         font-size: 16px;
         line-height: 1.4em;
     }
@@ -684,7 +679,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
 
     .h3 {
         font-size: 32px;
-        letter-spacing: -1px;
     }
 
     .the-blueprint {
@@ -904,7 +898,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .h1-title.banner-h1 {
-        letter-spacing: -1px;
         max-width: 436px;
         font-size: 30px;
     }
@@ -930,7 +923,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .h2-title {
-        letter-spacing: -1px;
         font-size: 30px;
     }
 
@@ -991,13 +983,11 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
 
     .h3 {
         font-size: 30px;
-        letter-spacing: -1px;
     }
 
     .button.global-button {
         min-width: 175px;
         min-height: 32px;
-        letter-spacing: .5px;
     }
 
     .the-blueprint {
@@ -1275,7 +1265,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .owsp-history-block .rich-text-block {
-        letter-spacing: -.1px;
         padding-left: 12px;
         font-size: 16px;
     }
@@ -1384,7 +1373,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .h2.hp-sect2-title h2.h2-title {
-        letter-spacing: -2.4px;
     }
 }
 
@@ -1651,7 +1639,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .h1-title.banner-h1 {
-        letter-spacing: -1px;
         max-width: 430px;
         font-size: 40px;
         text-align: center;
@@ -1700,7 +1687,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .h2.hp-sect2-title h2.h2-title {
-        letter-spacing: -1px;
         text-align: center;
         font-size: 40px;
     }
@@ -1712,7 +1698,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .pharagraph {
-        letter-spacing: -.4px;
         font-size: 24px;
     }
 
@@ -1756,7 +1741,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .h2-title {
-        letter-spacing: -1px;
         font-size: 40px;
     }
 
@@ -2324,7 +2308,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .owsp-history-block .rich-text-block {
-        letter-spacing: -.1px;
         padding-left: 20px;
         font-size: 24px;
     }
@@ -2358,7 +2341,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     section.section.cup-section1 .h1.h1-title.big-title.overlap {
-        letter-spacing: -4px;
         margin-bottom: -40px;
     }
 
@@ -2516,7 +2498,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .h1-title.banner-h1 {
-        letter-spacing: -1px;
         max-width: 430px;
         font-size: 36px;
         text-align: center;
@@ -2589,7 +2570,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .h2-title {
-        letter-spacing: -1px;
         font-size: 36px;
     }
 
@@ -2599,7 +2579,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .our-work-slider .pharagraph {
-        letter-spacing: -.4px;
         font-size: 24px;
     }
 
@@ -3046,7 +3025,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .h2-title {
-        letter-spacing: -1px;
         font-size: 32px;
     }
 
@@ -3056,7 +3034,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .our-work-slider .pharagraph {
-        letter-spacing: -.4px;
         font-size: 20px;
     }
 
@@ -3370,7 +3347,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     section.section.cup-section1 .h1.h1-title.big-title.overlap {
-        letter-spacing: -4px;
         margin-bottom: -24px;
         position: relative;
     }
