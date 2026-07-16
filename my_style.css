@@ -76,7 +76,7 @@ a.tb-readmore::before{
     left: -4px;
     bottom: 0;
     width: calc(100% + 4px);
-    height: 18px;
+    height: 10px;
 
     background: linear-gradient(
         to right,
@@ -90,7 +90,7 @@ a.tb-readmore::before{
     transform: scaleX(0);
     transform-origin: left center;
 
-    transition: transform 1.2s ease-out;
+    transition: transform 1s ease-out;
 }
 
 a.tb-readmore:hover::before{
@@ -153,7 +153,7 @@ body.no-scroll {
     left: -4px;
     bottom: 0;
     width: calc(100% + 4px);
-    height: 18px;
+    height: 12px;
     background: linear-gradient(
         to right,
         #6CC5F5 0%,
@@ -163,7 +163,7 @@ body.no-scroll {
     z-index: -1;
     transform: scaleX(0);
     transform-origin: left center;
-    transition: transform 1.2s ease-out;
+    transition: transform 1s ease-out;
 }
 
 .owl-item.project-item:hover h4.h4.owl-title:before{
