@@ -64,16 +64,41 @@ h4.h4.subtitle:before {
     display: none;
 }
 
-a.tb-readmore:hover::before {
+a.tb-readmore{
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+a.tb-readmore::before{
     content: "";
-    width: 100%;
-    height: 13px;
-    background: linear-gradient(to right, #6CC5F5 0%, #9DD8F8 45%, #FFFFFF 100%);
-    display: flex;
     position: absolute;
-    bottom: -4px;
-    left: -6px;
+    left: -4px;
+    bottom: 0;
+    width: calc(100% + 4px);
+    height: 18px;
+
+    background: linear-gradient(
+        to right,
+        #6CC5F5 0%,
+        #9DD8F8 45%,
+        #FFFFFF 100%
+    );
+
     z-index: -1;
+
+    transform: scaleX(0);
+    transform-origin: left center;
+
+    transition: transform 1.2s ease-out;
+}
+
+a.tb-readmore:hover::before{
+    transform: scaleX(1);
+}
+
+a.tb-readmore:not(:hover)::before{
+    transform-origin: right center;
 }
 
 .mobile {
