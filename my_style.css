@@ -542,11 +542,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
         font-size: 24px;
     }
 
-    ul.nav-menu-list li .nav-menu-link::before {
-        height: 32px;
-        left: -5px;
-    }
-
     .nav-menu-list {
         grid-column-gap: 41px;
         grid-row-gap: 41px;
@@ -1638,11 +1633,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
         left: -5px;
     }
 
-    ul.nav-menu-list li .nav-menu-link::before {
-        height: 43px;
-        left: -10px;
-    }
-
     .container.with-left-pattern {
         background-size: 110px;
     }
@@ -2528,11 +2518,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
         height: 16px;
         bottom: 2px;
         left: -5px;
-    }
-
-    ul.nav-menu-list li .nav-menu-link::before {
-        height: 40px;
-        left: -8px;
     }
 
     .h4 {
