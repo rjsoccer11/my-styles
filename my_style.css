@@ -1584,7 +1584,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
 
     .menu-popup-container {
         padding: 235px 210px 330px 210px;
-        overflow: scroll;
         display: flex;
     }
 
@@ -2483,7 +2482,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
 
     .menu-popup-container {
         padding: 190px 80px 230px 80px;
-        overflow: scroll;
         display: flex;
     }
 
