@@ -1583,7 +1583,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .menu-popup-container {
-        padding: 235px 210px 330px 210px;
+        padding: 100px 210px 100px 210px;
         display: flex;
     }
 
@@ -1625,16 +1625,17 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
         grid-row-gap: 21px;
     }
 
-    .close-menu-button {
-        top: auto;
-        bottom: 180px;
-        left: 50%;
+        .close-menu-button {
+        top: 30px;
+        bottom: auto;
+        left: auto;
         transform: translateX(-50%);
         width: 22px;
         display: flex;
         align-items: center;
         justify-content: center;
         z-index: 11;
+        right: 30px;
     }
 
     .nav-menu-list,
@@ -2481,7 +2482,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .menu-popup-container {
-        padding: 190px 80px 230px 80px;
+        padding: 90px 80px 90px 80px;
         display: flex;
     }
 
