@@ -2515,7 +2515,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .close-menu-button {
-        bottom: 130px;
+        bottom: auto;
         width: 21px;
     }
 
