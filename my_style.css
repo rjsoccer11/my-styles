@@ -359,6 +359,17 @@ body.no-scroll {
     clip-path: polygon(0 0, 100% 100%, 100% 0);
 }
 
+.white-bg .rp-swiper-slide a.rp-item-link-block:hover .rp-item-content h4.rp-item-title:after {
+    content: "";
+    position: absolute;
+    top: -9px;
+    right: -1px;
+    width: 25px;
+    height: 43px;
+    background: #fff;
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+}
+
 .tom-button-trig.w--redirected-checked {
     background: #80d2fd;
 }
