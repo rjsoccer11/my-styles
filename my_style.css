@@ -474,6 +474,12 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
 }
 
 
+@media only screen and (max-width: 1680px) {
+   .owl-search-and-filter {
+        gap: 35px;
+    } 
+}
+
 @media only screen and (max-width: 1440px) {
     .row.vertical-center.space-between.left-and-right-padding {
         padding-left: 144px;
@@ -820,10 +826,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     .social-links.footer {
         grid-column-gap: 31px;
         grid-row-gap: 31px;
-    }
-
-    .owl-search-and-filter {
-        gap: 30px;
     }
 
     .ow-title-block {
