@@ -754,7 +754,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     .tb-block {
         grid-column-gap: 40px;
         grid-row-gap: 40px;
-        padding: 21px 38px 21px 35px;
+        padding: 21px;
     }
 
     .swiper-slide.tb-swiper-slide {
