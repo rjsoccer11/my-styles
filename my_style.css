@@ -188,10 +188,6 @@ body.no-scroll {
     overflow: hidden;
 }
 
-.gx-marquee .splide__slide {
-    width: clamp(220px, 26vw, 340px);
-}
-
 .gx-css-marquee .splide__list {
     display: flex !important;
     width: max-content;
@@ -199,11 +195,7 @@ body.no-scroll {
     will-change: transform;
 }
 
-.gx-css-marquee .splide__slide {
-    flex: 0 0 auto;
-    margin-right: 14px;
-    display: block !important;
-}
+.gx-css-marquee .splide__slide{ flex:0 0 calc((100vw - 56px)/3); margin-right:14px; }
 
 .gx-css-marquee[data-dir="right"] .splide__list {
     animation: gx-right var(--gx-dur) linear infinite;
@@ -1430,6 +1422,9 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     .h2.hp-sect2-title h2.h2-title {
     }
 }
+
+@media (max-width:900px){ .gx-css-marquee .splide__slide{ flex-basis:calc((100vw - 42px)/2); } }
+@media (max-width:640px){ .gx-css-marquee .splide__slide{ flex-basis:calc(100vw - 28px); } }
 
 @media only screen and (max-width: 800px) {
     .row.vertical-center.space-between.left-and-right-padding.header {
