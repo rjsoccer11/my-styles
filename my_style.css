@@ -2109,7 +2109,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .owl-search-and-filter {
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         gap: 36px;
     }
 
@@ -2474,6 +2474,9 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
         .svg.avid-logo.owsp.w-embed {
         inset: auto auto -40px -62px;
+    }
+    .owl-search-and-filter {
+        flex-wrap: wrap;
     }
 }
 
