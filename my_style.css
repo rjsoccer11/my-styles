@@ -1641,7 +1641,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
         bottom: 170px;
         left: auto;
         width: 22px;
-        display: flex;
         align-items: center;
         justify-content: center;
         z-index: 11;
