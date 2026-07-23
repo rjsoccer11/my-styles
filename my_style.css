@@ -1636,15 +1636,17 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
         grid-row-gap: 21px;
     }
 
-            .close-menu-button {
+                .close-menu-button {
         top: auto;
-        bottom: 170px;
+        bottom: 0;
         left: auto;
         width: 22px;
         align-items: center;
         justify-content: center;
         z-index: 11;
-        right: calc(50% - 11px);
+        right: 0;
+        position: relative;
+        margin-top: 85px;
     }
 
     .nav-menu-list,
