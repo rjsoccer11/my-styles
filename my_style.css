@@ -1052,7 +1052,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     .tb-block {
         grid-column-gap: 25px;
         grid-row-gap: 25px;
-        padding: 19px 33px 19px 31px;
+        padding: 19px;
     }
 
     .h5 {
