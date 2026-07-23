@@ -566,6 +566,14 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     .map-block {
         padding: 72px 144px;
     }
+    .svg.avid-logo.owsp.w-embed svg {
+    max-width: 435px;
+    height: fit-content;
+}
+    .svg.avid-logo.owsp.w-embed {
+    inset: auto auto -61px -109px;
+    height: auto !important;
+}
 }
 
 @media only screen and (max-width: 1366px) {}
@@ -842,7 +850,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .svg.avid-logo.owsp.w-embed {
-        inset: auto auto -197px -102px;
+        inset: auto auto -50px -119px;
     }
 
     .owsp-banner .svg.avid-logo.owsp svg {
@@ -1273,7 +1281,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .svg.avid-logo.owsp.w-embed {
-        inset: auto auto -198px -81px;
+        inset: auto auto -40px -118px;
     }
 
     .owsp-content-block {
@@ -1404,6 +1412,13 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
 
     .map-block {
         padding: 68px 80px;
+    }
+    .svg.avid-logo.owsp.w-embed svg {
+    max-width: 300px;
+    height: fit-content;
+}
+    .svg.avid-logo.owsp.w-embed {
+        inset: auto auto -41px -75px;
     }
 }
 
@@ -2218,6 +2233,13 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     .svg.banner-logo {
         display: none;
     }
+    .svg.avid-logo.owsp.w-embed svg {
+    max-width: 250px;
+    height: fit-content;
+}
+        .svg.avid-logo.owsp.w-embed {
+        inset: auto auto -40px -63px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -2454,6 +2476,9 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     .cu-form {
         padding-left: 60px;
         padding-right: 60px;
+    }
+        .svg.avid-logo.owsp.w-embed {
+        inset: auto auto -40px -62px;
     }
 }
 
@@ -2879,6 +2904,9 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
         max-height: 235px;
         min-height: 235px;
     }
+        .svg.avid-logo.owsp.w-embed {
+        inset: auto auto -40px -59px;
+    }
 }
 
 @media only screen and (max-width: 440px) {
@@ -2941,8 +2969,8 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
         height: auto;
     }
 
-    .svg.avid-logo.owsp.w-embed {
-        inset: auto auto -156px -50px;
+        .svg.avid-logo.owsp.w-embed {
+        inset: auto auto -30px -50px;
     }
 
     .owsp-content-block {
@@ -3422,5 +3450,12 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
 
     .map-block {
         padding: 40px 40px;
+    }
+    .svg.avid-logo.owsp.w-embed svg {
+    max-width: 150px;
+    height: fit-content;
+}
+    .svg.avid-logo.owsp.w-embed {
+        inset: auto auto -30px -37px;
     }
 }
