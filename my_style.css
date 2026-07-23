@@ -1594,7 +1594,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .menu-popup-container {
-        padding: 235px 210px 310px 210px;
+        padding: 100px 210px 100px 210px;
         display: flex;
     }
 
@@ -2492,7 +2492,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .menu-popup-container {
-        padding: 90px 80px 90px 80px;
+        padding: 100px 80px 100px 80px;
         display: flex;
     }
 
