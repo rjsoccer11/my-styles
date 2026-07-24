@@ -676,9 +676,13 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 
     .pharagraph {
-        font-size: 16px;
+        font-size: 20px;
         line-height: 1.4em;
     }
+
+    .wa-cl-list .pharagraph {
+    font-size: 16px;
+}
 
     .slide.left-padding {
         padding-left: 128px;
