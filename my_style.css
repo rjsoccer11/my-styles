@@ -1027,7 +1027,7 @@ body.menu-open{
 }
   .tom-button-title {
     width: auto;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 .slider-image {
   clip-path: polygon(
