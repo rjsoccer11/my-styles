@@ -64,13 +64,13 @@ h4.h4.subtitle:before {
     display: none;
 }
 
-a.tb-readmore{
+.tb-readmore-text{
     position: relative;
     display: inline-block;
     z-index: 1;
 }
 
-a.tb-readmore::before{
+.tb-readmore-text::before{
     content: "";
     position: absolute;
     left: -4px;
@@ -93,11 +93,11 @@ a.tb-readmore::before{
     transition: transform 1s ease-out;
 }
 
-a.tb-readmore:hover::before{
+.tb-readmore-text:hover::before{
     transform: scaleX(1);
 }
 
-a.tb-readmore:not(:hover)::before{
+.tb-readmore-text:not(:hover)::before{
     transform-origin: right center;
 }
 
