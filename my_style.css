@@ -2209,7 +2209,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
 }
   .wa-cta {
     margin-bottom: 90px;
-    padding: 12px 65px 12px 55px;
+    padding: 12px 45px 12px 45px;
 }
   .h3.small {
     font-size: 20px;
@@ -2710,6 +2710,9 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
   .pharagraph.mv-phar {
     max-width: 370px;
 }
+        .cuib-details .pharagraph {
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
