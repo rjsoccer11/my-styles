@@ -1116,7 +1116,7 @@ body.menu-open{
     height: calc(100% + .5px);
     width: 36px;
     top: 0;
-    right: -36px;
+    right: -35px;
     position: absolute;
     background: #80d2fd;
     opacity: 0;
