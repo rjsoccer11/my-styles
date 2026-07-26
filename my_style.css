@@ -1116,16 +1116,14 @@ a.logo-flying {
 }
   .rp-swiper-slide a.rp-item-link-block .rp-item-content h4.rp-item-title:before {
     content: "";
-    height: 100%;
-    width: 0;
-    top: -49px;
-    right: -25px;
+    height: calc(100% + .5px);
+    width: 36px;
+    top: 0;
+    right: -36px;
     position: absolute;
-    border-style: solid;
-    border-width: 0px 25px 49px 0px;
-    border-color: transparent transparent #80d2fd transparent;
-    transform: rotate(0deg);
+    background: #80d2fd;
     opacity: 0;
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
 }
   .rp-swiper-slide a.rp-item-link-block:hover .rp-item-content h4.rp-item-title:before {
     opacity: 1;
