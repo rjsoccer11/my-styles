@@ -2753,6 +2753,9 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
         .cuib-details .pharagraph {
         font-size: 16px;
     }
+        .h1.h1-title.owsp-title.left {
+        max-width: 370px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
