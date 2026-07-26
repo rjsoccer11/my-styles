@@ -3670,8 +3670,8 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
         padding-left: 140px;
     }
   .menu-popup-sidebar {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
     .menu-popup-container {
         padding: 0px 210px 0px 210px;
@@ -4005,7 +4005,7 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
         max-width: 100%;
     }
       .menu-popup-container {
-        padding: 0px 100px 0px 100px;
+        padding: 100px 100px 100px 100px;
         overflow: scroll;
         display: flex;
     }
@@ -4691,7 +4691,7 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
         height: auto;
     }
       .menu-popup-container {
-        padding: 0px 80px 0px 80px;
+        padding: 100px 80px 100px 80px;
         overflow: scroll;
         display: flex;
     }
