@@ -1118,11 +1118,11 @@ a.logo-flying {
     content: "";
     height: 100%;
     width: 0;
-    top: -52px;
+    top: -49px;
     right: -25px;
     position: absolute;
     border-style: solid;
-    border-width: 0px 25px 52px 0px;
+    border-width: 0px 25px 49px 0px;
     border-color: transparent transparent #80d2fd transparent;
     transform: rotate(0deg);
     opacity: 0;
