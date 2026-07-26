@@ -151,7 +151,7 @@ body.no-scroll {
     content: "";
     position: absolute;
     left: -4px;
-    bottom: 0;
+    top: 12px;
     width: calc(100% + 4px);
     height: 12px;
     background: linear-gradient(
