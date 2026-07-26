@@ -1092,9 +1092,6 @@ body.menu-open{
     letter-spacing: -6%;
     line-height: 1.2em;
 }
-a.logo-flying {
-    top: -1px !important;
-}
   .milestone__label {
     min-height: 3.215em;
     margin-bottom: 35px;
