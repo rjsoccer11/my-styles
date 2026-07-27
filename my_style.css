@@ -896,16 +896,20 @@ section.section.header.home-nav.nav-scrolled.logo-swapped.bg-complete {
 }
 
 .our-work-slider{ position:relative; }
-  .our-work-slider.ow-ready{ background:var(--ow-cbg,#ffffff); }
+  .our-work-slider.ow-ready{ background:var(--ow-cbg,#ffffff); }   /* the white base under everything */
 
+  /* image strip ABOVE the copy (z4) — pointer-events off so drag/arrow clicks pass through */
   .ow-strip-layer{ position:absolute; inset:0; overflow:hidden; z-index:4; pointer-events:none; }
   .ow-strip-track{ position:absolute; top:0; left:0; height:100%; display:flex; flex-wrap:nowrap; will-change:transform; }
-  .ow-strip-item{ height:100%; flex:0 0 auto; position:relative; }
+  .ow-strip-item{ height:100%; flex:0 0 auto; position:relative; }   /* transparent — only the image is in the strip */
   .ow-strip-item .slide-media{ position:absolute !important; top:0; height:100% !important; margin:0 !important; }
   .ow-strip-item .slide-media img.slider-image{ width:100%; height:100%; object-fit:cover; object-position:var(--ow-obj,left); }
   .ow-strip-item .slider-image.mobile{ display:none; }
-  .our-work-slider:not(.ow-ready) .ow-strip-layer{ display:none; }
+  .our-work-slider:not(.ow-ready) .ow-strip-layer{ display:none; }   /* below the gate: native slider only */
 
+  /* MOBILE (≤768px — the stacked native slider): slide changes are INSTANT.
+     Kills the page's fade/rise on .swiper-slide and Swiper's 650ms glide
+     (stylesheet !important beats Swiper's inline transition-duration). */
   @media (max-width: 768px){
     .our-work-slider .swiper-slide{
       opacity:1 !important;
@@ -917,11 +921,14 @@ section.section.header.home-nav.nav-scrolled.logo-swapped.bg-complete {
     }
   }
 
+  /* base overrides — gated to .ow-ready so phones keep the original slider */
   .our-work-slider.ow-ready .swiper{ position:relative; z-index:2; cursor:grab; }
   .our-work-slider.ow-ready .swiper:active{ cursor:grabbing; }
   .our-work-slider.ow-ready .swiper-slide{ opacity:1 !important; transform:none !important; transition:none !important; }
-  .our-work-slider.ow-ready .swiper-slide .slide-media{ opacity:0 !important; }
+  .our-work-slider.ow-ready .swiper-slide .slide-media{ opacity:0 !important; }   /* originals hidden (clones show) */
 
+  /* copy: fixed in place, transparent, BELOW the strip —
+     the passing image covers it and reveals it as it clears */
   .our-work-slider.ow-ready .slide-content{
     position:relative; z-index:3;
     background:transparent;
@@ -934,6 +941,7 @@ section.section.header.home-nav.nav-scrolled.logo-swapped.bg-complete {
   .our-work-slider.ow-ready .slide-content.is-content-active .nav-btn{ pointer-events:auto; }
   .our-work-slider:not(.ow-ready) .slide-content{ opacity:1; }
   .our-work-slider.ow-ready .slide-content h4.h4.subtitle::before{ transform:scaleX(1) !important; transition:none !important; }
+
 
 body.menu-open{
     overflow:hidden;
