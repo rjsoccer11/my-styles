@@ -4554,9 +4554,6 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
     body.homepage .row.vertical-center.space-between.left-and-right-padding.header.mobile {
     padding-bottom: 70px;
 }
-  .row.vertical-center.space-between.left-and-right-padding.header:first-child .row-container {
-    padding-bottom: 50px;
-}
   .section.header.sticky.is-visible svg.header-logo-icon {
     left: -20px;
 }
@@ -5339,10 +5336,7 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
   body.homepage .row.vertical-center.space-between.left-and-right-padding.header.mobile {
     padding-bottom: 60px;
 }
-  .row.vertical-center.space-between.left-and-right-padding.header:first-child .row-container {
-    padding-bottom: 45px;
-    padding-top: 65px;
-}
+
     .left-and-right-padding, .ow-lists.left-and-right-padding {
         padding-left: 35px;
         padding-right: 35px;
