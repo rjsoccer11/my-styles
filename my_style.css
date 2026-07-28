@@ -1996,10 +1996,6 @@ body.menu-open{
         margin-bottom: 65px;
     }
 
-    .owl-item-image-cont {
-        max-height: 175px;
-    }
-
     .owl-cl {
         grid-column-gap: 25px;
         grid-row-gap: 25px;
@@ -3762,11 +3758,6 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
         display: grid;
     }
 
-    .owl-item-image-cont {
-        max-height: 320px;
-        min-height: 320px;
-    }
-
     .owl-item {
         height: 100%;
         display: flex;
@@ -4573,10 +4564,6 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
     .map-block {
         padding: 50px 45px;
     }
-        .owl-item-image-cont {
-        max-height: 235px;
-        min-height: 235px;
-    }
         .svg.avid-logo.owsp.w-embed {
         inset: auto auto -40px -59px;
     }
@@ -4837,10 +4824,6 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
 
     .related-projects {
         padding: 40px 45px;
-    }
-        .owl-item-image-cont {
-        max-height: 220px;
-        min-height: 220px;
     }
     .sticky .row.vertical-center.space-between.left-and-right-padding.header .column:last-child {
     padding-right: 45px;
@@ -5238,11 +5221,6 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
 
     .owl-sf.search form.w-form {
         margin: 0;
-    }
-
-    .owl-item-image-cont {
-        max-height: 195px;
-        min-height: 195px;
     }
 
     .owl-content-block {
