@@ -3680,7 +3680,7 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
     padding-bottom: 0px;
 }
     .menu-popup-container {
-        padding: 0px 210px 0px 210px;
+        padding: 100px 210px 100px 210px;
         display: flex;
     }
 }
