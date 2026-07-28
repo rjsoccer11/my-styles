@@ -650,10 +650,6 @@ html.is-banner-locked {
   svg.logo-flying .avid-logo__door {
     transform: none !important;
   }
-.global-pages .section.header.sticky.is-visible .row-container {
-    padding-top: 10px;
-    padding-bottom: 9px;
-}
 
   .section.header {
     padding-top: 0;
@@ -1635,10 +1631,6 @@ body.menu-open{
   .pharagraph.fl-text.address {
         max-width: 400px;
     }
-  .global-pages .section.header.sticky.is-visible .row-container {
-    padding-top: 12px;
-    padding-bottom: 11px;
-}
   .banner-image {
     height: 545px;
 }
@@ -2286,10 +2278,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
   .pharagraph.fl-text.address {
         max-width: 335px;
-    }
-  .global-pages .section.header.sticky.is-visible .row-container {
-        padding-top: 13px;
-        padding-bottom: 12px;
     }
       .our-work-block .svg.avid-logo.small svg {
         max-width: 120px;
@@ -3573,10 +3561,6 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
   .header.home-nav.logo-swapped .header-logo-icon {
     left: -17px;
 }
-      .global-pages .section.header.sticky.is-visible .row-container {
-        padding-top: 11px;
-        padding-bottom: 11px;
-    }
   .svg.avid-logo.owsp.w-embed {
         inset: auto auto -40px -72px;
     }
