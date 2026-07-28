@@ -4647,10 +4647,6 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
       .ow-banner-image.contact-us {
         height: 230px;
     }
-  .sticky .row.vertical-center.space-between.left-and-right-padding.header:first-child .row-container {
-        padding-bottom: 16px;
-        padding-top: 15px;
-    }
   .owsp-banner-title-block {
     flex-direction: row-reverse;
 }
