@@ -324,11 +324,7 @@ body.no-scroll {
 
 
 
-.rp-swiper-slide a.rp-item-link-block:hover .rp-item-content h4.rp-item-title {
-    color: #000;
-    padding-left: 10px;
-    padding-right: 40px;
-}
+
 
 
 .tom-button-trig.w--redirected-checked {
@@ -1105,30 +1101,7 @@ body.menu-open{
     margin-bottom: 0;
     margin-top: auto;
 }
-  .rp-swiper-slide a.rp-item-link-block:hover .rp-item-content h4.rp-item-title {
-    color: #000;
-    padding-left: 10px;
-    padding-right: 20px;
-    background: #80d2fd;
-    min-height: 53px;
-    display: flex;
-    align-items: center;
-    max-width: 80%;
-}
-  .rp-swiper-slide a.rp-item-link-block .rp-item-content h4.rp-item-title:before {
-    content: "";
-    height: calc(100% + .5px);
-    width: 36px;
-    top: 0;
-    right: -35px;
-    position: absolute;
-    background: #80d2fd;
-    opacity: 0;
-    clip-path: polygon(0 0, 0 100%, 100% 100%);
-}
-  .rp-swiper-slide a.rp-item-link-block:hover .rp-item-content h4.rp-item-title:before {
-    opacity: 1;
-}
+
 .w-checkbox-input--inputType-custom.w--redirected-checked {
     background: #47d7ac;
     border: 0;
@@ -2111,16 +2084,7 @@ body.menu-open{
         border-bottom: 2px solid #fff;
     }
 
-    .rp-swiper-slide a.rp-item-link-block:hover .rp-item-content h4.rp-item-title:before,
-    .rp-swiper-slide a.rp-item-link-block:hover .rp-item-content h4.rp-item-title:after {
-        display: none;
-    }
-
-    .rp-swiper-slide a.rp-item-link-block:hover .rp-item-content h4.rp-item-title {
-        color: #80d2fd;
-        padding-left: 0;
-        padding-right: 0;
-    }
+   
 
     .owsp-rp-block {
         margin-bottom: 30px;
