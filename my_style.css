@@ -1243,6 +1243,9 @@ body.menu-open{
   .owsp-banner-title-block {
     padding-left: 335px;
 }
+        section.section.header .row-container .column {
+        padding-right: 144px;
+    }
 }
 
 @media only screen and (max-width: 1366px) {}
