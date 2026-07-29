@@ -2075,11 +2075,6 @@ body.menu-open{
         border-bottom: 8px solid #80d2fd;
     }
 
-    .rp-item-image {
-        object-fit: cover;
-        width: 100%;
-        height: 160px;
-    }
 
     .rp-item-content {
         padding-top: 15px;
