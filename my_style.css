@@ -1833,12 +1833,13 @@ body.menu-open{
     .stay-in-touch-block.left-and-right-padding {
         padding-left: 100px;
         padding-right: 27px;
+        gap: 27px;
     }
 
     .stayintouch-head-text {
         grid-column-gap: 10px;
         grid-row-gap: 10px;
-        max-width: 292px;
+        max-width: 440px;
     }
 
     .st-form {
@@ -2709,6 +2710,9 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
         .h1.h1-title.owsp-title.left {
         max-width: 370px;
+    }
+        .stayintouch-head-text {
+        max-width: 300px;
     }
 }
 
