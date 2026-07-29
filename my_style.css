@@ -444,7 +444,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
   .history__track{ width:max-content; will-change:transform; }
   .timeline{
     position:relative; display:flex; align-items:flex-start; width:max-content;
-    gap:clamp(110px,12vw,210px); padding-left:70px; padding-right:130px;
+    gap:clamp(75px,75px,210px); padding-left:70px; padding-right:130px;
     background:linear-gradient(var(--line),var(--line)) 0 calc(var(--line-y) - 0.75px) / 100% 1.5px no-repeat;
   }
   .timeline::before{ content:""; position:absolute; left:0;  top:var(--line-y); width:10px; height:10px; border-radius:50%; background:var(--line); transform:translate(-50%,-50%); }
