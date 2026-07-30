@@ -1849,7 +1849,7 @@ body.menu-open{
 
     .stay-in-touch-form-block {
         width: 100%;
-        max-width: 435px;
+        max-width: 436px;
         margin-bottom: 0;
     }
 
@@ -2475,7 +2475,9 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
         font-size: 20px;
         letter-spacing: -3%;
     }
-
+.stayintouch-head-text p.pharagraph {
+    font-size: 18px;
+}
 }
 
 @media only screen and (max-width: 991px) {
