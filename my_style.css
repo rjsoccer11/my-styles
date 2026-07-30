@@ -1839,7 +1839,7 @@ body.menu-open{
     .stayintouch-head-text {
         grid-column-gap: 10px;
         grid-row-gap: 10px;
-        max-width: 440px;
+        max-width: 430px;
     }
 
     .st-form {
@@ -1849,7 +1849,7 @@ body.menu-open{
 
     .stay-in-touch-form-block {
         width: 100%;
-        max-width: 420px;
+        max-width: 435px;
         margin-bottom: 0;
     }
 
@@ -2495,6 +2495,9 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     .wa-itb .pharagraph {
     font-size: 18px;
 }
+        .stay-in-touch-form-block {
+        max-width: 402px;
+    }
 }
 
 @media (max-width:900px){ .gx-css-marquee .splide__slide{ flex-basis:calc((100vw - 42px)/2); } }
