@@ -2722,7 +2722,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .desktop {
         display: none;
     }
