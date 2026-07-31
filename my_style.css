@@ -2376,7 +2376,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     padding-bottom: 50px;
 }
   .milestone__label {
-    height: auto !important;
     min-height: 1.5em;
 }
   .left-and-right-padding.number-counter-block, .left-and-right-padding.mission-vision-block, .left-and-right-padding.lenc {
