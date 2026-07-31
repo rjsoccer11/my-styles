@@ -1095,7 +1095,6 @@ body.menu-open{
   .milestone__label {
     min-height: 3.215em;
     margin-bottom: 35px;
-    height: auto !important;
 }
   .rp-item-content {
     margin-bottom: 0;
