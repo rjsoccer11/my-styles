@@ -1660,7 +1660,7 @@ body.menu-open{
     }
 
     .svg.header-logo svg {
-        width: 217px;
+        width: auto;
     }
 
     .svg.menu-button-icon svg {
@@ -3694,7 +3694,7 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
         display: none;
     }
       .svg.header-logo svg {
-        width: 395px;
+        width: 182px;
         height: auto;
     }
       .button {
@@ -4634,7 +4634,7 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
     font-size: 18px;
 }
       .svg.header-logo svg {
-        width: 290px;
+        width: 135px;
         height: auto;
     }
       .menu-popup-container {
@@ -5408,7 +5408,7 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
        inset: auto auto -30px -50px;
     }
       .svg.header-logo svg {
-        width: 255px;
+        width: 115px;
         height: auto;
     }
   .button.wa-cta-button {
