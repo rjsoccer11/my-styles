@@ -1259,7 +1259,7 @@ body.menu-open{
     }
 
     .svg.header-logo svg {
-        width: 280px;
+        width: auto;
     }
 
     .button {
