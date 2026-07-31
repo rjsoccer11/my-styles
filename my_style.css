@@ -1246,6 +1246,9 @@ body.menu-open{
         section.section.header .row-container .column {
         padding-right: 144px;
     }
+        .otb-title {
+        max-width: 1100px;
+    }
 }
 
 @media only screen and (max-width: 1366px) {}
