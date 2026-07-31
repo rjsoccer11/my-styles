@@ -469,7 +469,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
 
     .timeline{
       flex-direction:column; align-items:stretch; width:100%;
-      gap:40px; padding:0;
+      gap:75px; padding:0;
       background:linear-gradient(var(--line),var(--line)) var(--line-x) 0 / 1.5px 100% no-repeat;
     }
     .timeline::before{ left:var(--line-x); top:0;   right:auto; bottom:auto; transform:translate(-50%,-50%); }  /* top dot */
