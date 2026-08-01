@@ -5090,8 +5090,8 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
     .footer-row {
         padding-left: 35px;
         padding-right: 35px;
-        padding-top: 70px;
-        padding-bottom: 55px;
+        padding-top: 35px;
+        padding-bottom: 35px;
         flex-direction: column;
     }
 
