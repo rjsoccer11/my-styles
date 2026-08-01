@@ -4752,6 +4752,8 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
     .footer-row {
         padding-left: 45px;
         padding-right: 45px;
+        padding-top: 45px;
+        padding-bottom: 45px;
     }
 
     body.single-page-our-works .section.no-logo-header .row.vertical-center.space-between.left-and-right-padding {
