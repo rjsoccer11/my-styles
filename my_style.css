@@ -4112,6 +4112,10 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
         .want-to-know-more-block h3 {
         font-size: 36px;
     }
+        .footer-row {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
