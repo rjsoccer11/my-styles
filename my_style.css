@@ -1168,8 +1168,8 @@ body.menu-open{
     }
 
     .footer-row {
-        padding-left: 75px;
-        padding-right: 110px;
+        padding-left: 144px;
+        padding-right: 144px;
     }
 
     .section.no-logo-header {
@@ -1234,7 +1234,7 @@ body.menu-open{
     max-width: 810px;
 }
   .pharagraph.fl-text.address {
-    max-width: 435px;
+    max-width: 390px;
 }
   .left-padding {
     padding-left: 144px;
@@ -1490,8 +1490,8 @@ body.menu-open{
     }
 
     .footer-row {
-        padding-left: 66px;
-        padding-right: 97px;
+        padding-left: 128px;
+        padding-right: 128px;
         padding-top: 68px;
         padding-bottom: 64px;
     }
@@ -1639,6 +1639,9 @@ body.menu-open{
     }
   .wa-cta h3.h3.small {
     font-size: 28px;
+}
+    .footer-links {
+    gap: 100px;
 }
 }
 
