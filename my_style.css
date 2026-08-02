@@ -1080,10 +1080,6 @@ body.menu-open{
   .tb-carousel .tb-content h5 {
     letter-spacing: -3%;
 }
-  .pswp__zoom-wrap img.pswp__img {
-    max-height: 85vh;
-    object-fit: cover;
-}
   .global-content h3 {
     font-size: 36px;
     margin-top: 80px;
