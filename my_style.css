@@ -538,9 +538,10 @@ html.is-banner-locked {
   overflow: hidden;
 }
 
+  /* ---------- Home page: fixed, scroll-linked header ---------- */
   .header.home-nav,
   .section.header.home-nav {
-    position: absolute !important;
+    position: fixed !important;
     top: 0;
     left: 0;
     right: 0;
@@ -549,10 +550,15 @@ html.is-banner-locked {
     will-change: transform;
   }
 
+  /* lets the hp-section3 scroll-lock hide this header too —
+     requires STICKY_MENU_SELECTOR = '.section.header' in that script */
   .section.header.home-nav.is-scroll-locked {
     transform: translateY(-100%) !important;
   }
 
+  /* Blue background: fully transparent through the whole reveal,
+     then switches to solid the instant the border finishes passing
+     (bgLead-adjusted) — a hard cut, no fade in either direction.    */
   .header.home-nav .row-container {
     position: relative;
     z-index: 0;
@@ -561,24 +567,34 @@ html.is-banner-locked {
     content: "";
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
-    background: #80D2FD;
-    opacity: var(--nav-bg, 0);
+    background: #80D2FD;               /* = banner border-bottom blue */
+    opacity: 0;
     z-index: -1;
     pointer-events: none;
   }
+  .header.home-nav.bg-solid .row-container::before {
+    opacity: 1;                        /* no transition — instant cut */
+  }
 
+  /* Home: wordmark fades out while the banner triangle flies in */
   .header.home-nav .header-logo {
     transition: opacity .25s ease;
   }
   .header.home-nav.logo-swapped .header-logo {
-    opacity: 0;
+    opacity: 0;                        /* keeps its box — layout stays put */
   }
 
+  /* injected icon: hidden in these modes by default (the real
+     triangle flies instead); classic pages keep using it            */
   .header.home-nav .header-logo-icon,
   .section.header.inner-fixed.sticky.is-visible.scroll-reveal .header-logo-icon {
     display: none !important;
   }
 
+  /* HOME MOBILE fallback — your CSS hides the banner triangle below
+     768px, so when scrolled the compact icon appears in the bar
+     instead, crossfading with the wordmark. Driven by the triangle's
+     actual visibility, so desktop keeps the single flying logo.     */
   .header.home-nav.icon-fallback .logo-block {
     position: relative;
     display: inline-flex;
@@ -590,20 +606,22 @@ html.is-banner-locked {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    height: var(--dock-h, 65px);
+    height: var(--dock-h, 65px);       /* follows HOME_CFG.dockHeight */
     width: auto;
     opacity: 0;
     transition: opacity .25s ease;
-    pointer-events: none;
+    pointer-events: none;              /* the logo link takes the click */
   }
   .header.home-nav.icon-fallback.logo-swapped .header-logo-icon {
     opacity: 1;
   }
 
+  /* Homepage mobile buttons row: collapses once scrolling starts */
   body.homepage .header.home-nav.nav-scrolled .row.header.mobile {
     display: none !important;
   }
 
+  /* ---------- Inner pages: layout-stable scroll-linked reveal ---- */
   .header.inner-fixed,
   .section.header.inner-fixed {
     position: fixed !important;
@@ -616,36 +634,45 @@ html.is-banner-locked {
     will-change: transform;
   }
   .section.header.inner-fixed.sticky.is-visible.scroll-reveal {
-    transform: translateY(calc(var(--reveal, 0) * 100% - 100%)) !important;
-    opacity: var(--reveal, 0);
+    transform: translateY(var(--reveal-px, 0px)) !important;  /* JS-computed
+                                       pixels, not a CSS percentage — stays
+                                       correct even if something else (e.g.
+                                       your own CSS) changes the header's
+                                       rendered height mid-transition        */
+    opacity: var(--reveal, 0);      /* fades in as it slides — same progress.
+                                       Fade done sooner than the slide?
+                                       use: calc(var(--reveal, 0) * 1.5)      */
     transition: none !important;
   }
 
-.logo-flying {
+  /* ---------- The traveling banner triangle (rides a real link) ---- */
+  .logo-flying {
     display: block;
-    z-index: 1001;
+    z-index: 1001;                     /* above the fixed header (1000) */
     transform-origin: top left;
     will-change: transform;
-    transition: none !important;
+    transition: none !important;       /* scroll-driven, no easing lag */
     cursor: pointer;
-    pointer-events: auto !important;
-
+    pointer-events: auto !important;   /* the link box takes the click */
   }
   .logo-flying svg,
   .logo-flying img {
     display: block;
     width: 100%;
     height: 100%;
-    pointer-events: none;
+    pointer-events: none;              /* …not the graphic inside it */
   }
-  body.no-scroll .logo-flying {
+  body.no-scroll .logo-flying {        /* nav menu open — stay beneath it */
     z-index: 999;
   }
-
-  .logo-flying .avid-logo__door,
-  svg.logo-flying .avid-logo__door {
-    transform: none !important;
+  /* while flying, door state changes are instant (no mid-shrink swing).
+     The door's CLOSED position comes from your own CSS transform — we
+     no longer override it; the is-open class is locked out in JS so
+     the door stays shut and flush against the logo body.            */
+  .logo-flying .avid-logo__door {
+    transition: none !important;
   }
+
 
   .section.header {
     padding-top: 0;
