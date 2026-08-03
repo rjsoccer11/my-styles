@@ -541,7 +541,7 @@ html.is-banner-locked {
   /* ---------- Home page: fixed, scroll-linked header ---------- */
   .header.home-nav,
   .section.header.home-nav {
-    position: fixed !important;
+    position: absolute !important;
     top: 0;
     left: 0;
     right: 0;
