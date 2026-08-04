@@ -1244,7 +1244,6 @@ body.menu-open{
 }
     .svg.avid-logo.owsp.w-embed {
     inset: auto auto -61px -109px;
-    height: auto !important;
 }
     section.section.header.sticky.is-visible .row-container .column:last-child {
     padding-right: 144px;
