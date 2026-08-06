@@ -3751,11 +3751,6 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
         gap: 30px;
     }
 
-    .owsp-section2 .h1-title.owsp-title,
-    .owsp-section2 .owsp-location {
-        display: none;
-    }
-
     .owsp-cb-ct {
         max-width: 100%;
         margin-top: 0;
