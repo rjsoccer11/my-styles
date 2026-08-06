@@ -4095,6 +4095,11 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
         padding-top: 75px;
         padding-bottom: 75px;
     }
+    .button.global-button {
+        min-width: 200px;
+        min-height: 42px;
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -4276,9 +4281,9 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
     }
 
     .button.global-button {
-        min-width: 250px;
-        min-height: 50px;
-        font-size: 20px;
+        min-width: 200px;
+        min-height: 42px;
+        font-size: 16px;
     }
 
     .the-blueprint {
