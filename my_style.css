@@ -534,9 +534,9 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
   will-change: transform;
 }
 
-html.is-banner-locked {
+/*html.is-banner-locked {
   overflow: hidden;
-}
+}*/
 
   /* ---------- Home page: fixed, scroll-linked header ---------- */
   .header.home-nav,
