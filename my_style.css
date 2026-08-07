@@ -418,7 +418,7 @@ section.section.header.sticky.is-visible .row-container {
     position: absolute;
     top: 0;
     height: 100%;
-    left: -23px;
+    left: -17px;
 }
 section.section.header.sticky.is-visible a.link-block.back-button {
     display: none;
@@ -2136,9 +2136,6 @@ body.menu-open{
     .sticky .row.vertical-center.space-between.left-and-right-padding.header .column:last-child {
     padding-right: 100px;
 }
-  .section.header.sticky.is-visible svg.header-logo-icon {
-    left: -21px;
-}
 section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     left: -20px;
 }
@@ -3412,9 +3409,6 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
     margin-top: auto;
     margin-bottom: 0;
 }
-      .section.header.sticky.is-visible svg.header-logo-icon {
-        left: -22px;
-    }
       .left-and-right-padding, .ow-lists.left-and-right-padding {
         padding-left: 55px;
         padding-right: 55px;
@@ -4511,9 +4505,6 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
     }
     body.homepage .row.vertical-center.space-between.left-and-right-padding.header.mobile {
     padding-bottom: 70px;
-}
-  .section.header.sticky.is-visible svg.header-logo-icon {
-    left: -20px;
 }
       section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
         left: -19px;
