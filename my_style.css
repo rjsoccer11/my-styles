@@ -704,16 +704,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     pointer-events: none;
     z-index: -1;
 }
-  .section.header.inner-fixed.sticky.is-visible.scroll-reveal .container.w-container .header:after, section.section.header.home-nav.nav-scrolled.logo-swapped .row.vertical-center.header:after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 121px;
-    right: -121px;
-    top: 0;
-    height: 100%;
-    background: #80d2fd;
-}
+
 .display-in-sticky {
     display: none;
 }
