@@ -745,7 +745,7 @@ section.section.header.home-nav.logo-swapped a.button.primary-color {
     display: flex;
     position: absolute;
     bottom: 0;
-    left: -4px;
+    left: 0px;
     z-index: -1;
     transform: scaleX(0);
   transform-origin: left center;
