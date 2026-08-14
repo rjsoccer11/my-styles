@@ -1283,26 +1283,6 @@
      .modal-content.team-mc h3.h3.small.not-bold.pm-suffix {
          text-align: center;
     }
-     .left-padding.history-slide {
-         padding-right: 55px;
-    }
-     .milestone__label {
-         margin-bottom: 0;
-    }
-     .milestone__year {
-         order: 1;
-         flex: 0 0 auto;
-         width: 150px;
-         margin: 0;
-         text-align: right;
-    }
-     .milestone__marker {
-         order: 2;
-         flex: 0 0 auto;
-         width: var(--arrow-size);
-         overflow: visible;
-         margin: 0 20px 0 calc(40px + 40px);
-    }
      .open-position-block [data-modal].position-modal [data-lenis-prevent] {
          overflow-x: visible;
     }
@@ -1388,9 +1368,6 @@
      .wa-head-title .pharagraph {
          font-size: 20px;
     }
-     .milestone__label {
-         text-align: left;
-    }
      .tb-carousel img.image.tbc-image.mobile {
          height: 30vh !important;
     }
@@ -1417,10 +1394,6 @@
     }
      .owsp-cb-features .owsp-feat-item {
          margin-left: 20px;
-    }
-     .milestone__year {
-         margin-top: 0;
-         margin-bottom: auto;
     }
      .post-type-filter {
          margin-left: 0;
@@ -1483,10 +1456,6 @@
     }
      .wa-title-and-content.isae .h2.h2-title.black.bold.wa-tc-title {
          max-width: 100%;
-    }
-     .milestone__marker {
-         margin-top: 2px;
-         margin-bottom: auto;
     }
      .mv-wrapper {
          max-width: 365px;
@@ -1772,27 +1741,12 @@
     }
 }
  @media only screen and (max-width: 480px) {
-     .milestone__marker {
-         margin: 0 5px 0 calc(30px + 30px);
-    }
-     .milestone__label {
-         margin-left: 20px;
-    }
      .timeline::before,.timeline::after {
          left: 150px;
-    }
-     .timeline.w-dyn-items {
-         --line-x: 149px !important;
     }
      .modal-card.team-mc {
          max-height: 90vh;
          padding: 45px 45px;
-    }
-     .history {
-         height: auto;
-         overflow: visible;
-         cursor: default;
-         padding: 48px 0;
     }
      .stayintouch-head-text h3.sit-title {
          font-size: 20px;
@@ -1860,10 +1814,6 @@
      .owsp-cb-features .owsp-feat-item {
          margin-left: 20px;
     }
-     .milestone__year {
-         flex-direction: column;
-         text-align: left;
-    }
      .otb-list {
          grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     }
@@ -1896,12 +1846,6 @@
          margin-left: -55px;
          width: calc(100% + 110px);
     }
-     .timeline::before, .timeline::after {
-         left: 131px;
-    }
-     .timeline.w-dyn-items {
-         --line-x: 130px !important;
-    }
      .careers .image-and-text-overlap-img .pharagraph {
          font-size: 20px;
     }
@@ -1914,12 +1858,6 @@
     }
      .svg.op-modal-close-button {
          inset: 12px 12px auto auto;
-    }
-     .milestone {
-         align-items: flex-start;
-    }
-     .milestone__marker {
-         margin-top: 15px;
     }
      .modal-content.team-mc {
          padding-right: 30px;
@@ -1992,7 +1930,6 @@
          font-size: 14px;
     }
      .left-padding.history-slide {
-         padding-right: 45px;
          padding-left: 45px;
     }
      .slide-tag {
@@ -2033,12 +1970,6 @@
     }
      .whoweare .pharagraph {
          font-size: 18px;
-    }
-     .timeline::before, .timeline::after {
-         left: 128px;
-    }
-     .timeline.w-dyn-items {
-         --line-x: 127px !important;
     }
      .our-team-block .wa-cta.no-marg.cu-cta {
          margin-left: -45px;
@@ -2086,9 +2017,6 @@
      .stayintouch-head-text h3.sit-title {
          font-size: 28px;
     }
-     .milestone__marker {
-         margin: 0 5px 0 calc(24px + 24px);
-    }
      .whoweare .pharagraph.bold.ot-name {
          font-size: 24px;
     }
@@ -2121,17 +2049,6 @@
     }
      .history {
          padding-top: 0;
-    }
-     .milestone__year {
-         flex-direction: column;
-         text-align: left;
-         width: 115px;
-    }
-     .timeline::before, .timeline::after {
-         left: 125px;
-    }
-     .timeline.w-dyn-items {
-         --line-x: 124px !important;
     }
      .left-and-right-padding.mission-vision-block {
          padding-bottom: 50px;
@@ -2214,9 +2131,6 @@
      .owsp-cb-features .owsp-feat-item {
          margin-left: 15px;
     }
-     .milestone__marker {
-         display: none;
-    }
      .ot-name-info {
          align-items: center;
     }
@@ -2244,9 +2158,6 @@
     }
      .pharagraph.ot-position {
          text-align: left;
-    }
-     .milestone__label {
-         margin-left: 50px;
     }
      .modal-card.team-mc {
          padding-right: 0;
