@@ -1741,9 +1741,6 @@
     }
 }
  @media only screen and (max-width: 480px) {
-     .timeline::before,.timeline::after {
-         left: 150px;
-    }
      .modal-card.team-mc {
          max-height: 90vh;
          padding: 45px 45px;
