@@ -4746,18 +4746,6 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
         min-height: 44px;
         font-size: 20px;
     }
-    .owsp-section6 .blueprint__swiper .swiper-wrapper {
-    display: flex !important;
-    flex-wrap: nowrap !important;
-    grid-template-columns: none !important;
-    grid-auto-rows: unset !important;
-    grid-gap: 0 !important;
-    gap: 0 !important;
-  }
-  .owsp-section6 .swiper-slide.tb-swiper-slide {
-    height: auto !important;
-    flex-shrink: 0;
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -5758,27 +5746,6 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
   .single-page-our-works .svg.avid-logo.owsp svg {
     height: 100px;
 }
-}
-
-
-@media only screen and (max-width: 599px) {
-  .owsp-section6 .the-blueprint .blueprint__swiper {
-    width: 100vw;
-    max-width: none;
-    margin-left: calc(50% - 50vw);
-    overflow: hidden;
-  }
-  .owsp-section6 .the-blueprint .tb-nav-arrows.tb-arrows-mobile {
-    display: block !important;
-    width: 100%;
-  }
-  .owsp-section6 .the-blueprint .tb-nav-arrows.tb-arrows-mobile .nav-arrows {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    margin-top: 24px;
-  }
 }
 
 
