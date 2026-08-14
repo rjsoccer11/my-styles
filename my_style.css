@@ -5651,7 +5651,7 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
     height: 56px;
 }
   .menu-popup-container {
-    justify-content: center;
+    justify-content: flex-start;
 }
   .nav-menu-list {
         padding-bottom: 40px;
@@ -5796,7 +5796,7 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
     .nav-menu-list {
         grid-column-gap: 45px;
         grid-row-gap: 45px;
-        padding-bottom: 120px;
+        padding-bottom: 40px;
     }
 
     .nav-ext-link-text {
@@ -6482,7 +6482,7 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
     gap: 35px;
 }
   .menu-popup-container {
-    justify-content: space-between;
+    justify-content: flex-start;
 }
       .pharagraph.fl-text.address {
         max-width: 300px;
