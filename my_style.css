@@ -4034,10 +4034,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
         object-fit: cover;
     }
 
-    .blueprint__swiper {
-        overflow: visible !important;
-    }
-
 
     .want-to-know-more-block {
         padding-top: 100px;
@@ -4688,9 +4684,6 @@ body.homepage .row.vertical-center.space-between.left-and-right-padding.header.m
 }
 
 @media (max-width: 767px) {
-    .blueprint__swiper {
-        overflow: visible !important;
-    }
 
 
     .gx-marquee .splide__slide {
