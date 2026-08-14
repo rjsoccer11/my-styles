@@ -3027,10 +3027,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
         padding-right: 55px;
     }
 
-    .blueprint__swiper .swiper-wrapper {
-        gap: 30px;
-    }
-
     .tb-block {
         grid-column-gap: 30px;
         grid-row-gap: 30px;
