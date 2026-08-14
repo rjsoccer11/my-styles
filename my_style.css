@@ -464,7 +464,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
 
   /* ---- MOBILE (<=600px): vertical stack, no drag/scroll ---- */
   @media (max-width:600px){
-    .history{ height:auto; overflow:visible; cursor:default; padding:48px 24px; }
+    /*.history{ height:auto; overflow:visible; cursor:default; padding:48px 24px; }
     .history__track{ width:100%; transform:none !important; }
 
     .timeline{
@@ -472,8 +472,8 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
       gap:75px; padding:0;
       background:linear-gradient(var(--line),var(--line)) var(--line-x) 0 / 1.5px 100% no-repeat;
     }
-    .timeline::before{ left:var(--line-x); top:0;   right:auto; bottom:auto; transform:translate(-50%,-50%); }  /* top dot */
-    .timeline::after { left:var(--line-x); top:auto; right:auto; bottom:0;   transform:translate(-50%, 50%); }  /* bottom dot */
+    .timeline::before{ left:var(--line-x); top:0;   right:auto; bottom:auto; transform:translate(-50%,-50%); }  
+    .timeline::after { left:var(--line-x); top:auto; right:auto; bottom:0;   transform:translate(-50%, 50%); } 
 
     .milestone{ flex-direction:row; align-items:center; width:100%; height:auto; text-align:left; }
 
@@ -483,13 +483,13 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
       order:2; flex:0 0 auto; width:var(--arrow-size); overflow:visible;
       margin:0 var(--gap-content-arrow) 0 calc(var(--gap-line-year) + var(--gap-arrow-line));
     }
-    .milestone__marker svg{ transform:rotate(90deg); }   /* up-arrow → points right */
+    .milestone__marker svg{ transform:rotate(90deg); }  
 
     .milestone__label{
       order:3; flex:1 1 auto; display:block; height:auto !important; min-height:0;
       max-width:none; margin:0; text-align:right; align-items:initial;
     }
-  }
+  }*/
 
 
 
