@@ -60,17 +60,17 @@ h4.h4.subtitle:before {
     z-index: -1;
 }
 
-..at-start .nav-btn.nav-prev {
+.our-work-slider.at-start .nav-btn.nav-prev {
     display: none;
 }
 
-.tb-readmore-text{
+.tb-readmore-text {
     position: relative;
     display: inline-block;
     z-index: 1;
 }
 
-.tb-readmore-text::before{
+.tb-readmore-text::before {
     content: "";
     position: absolute;
     left: -4px;
@@ -78,12 +78,10 @@ h4.h4.subtitle:before {
     width: calc(100% + 4px);
     height: 10px;
 
-    background: linear-gradient(
-        to right,
+    background: linear-gradient(to right,
         #6CC5F5 0%,
         #9DD8F8 45%,
-        transparent 100%
-    );
+        transparent 100%);
 
     z-index: -1;
 
@@ -93,11 +91,11 @@ h4.h4.subtitle:before {
     transition: transform 1s ease-out;
 }
 
-.tb-readmore-text:hover::before{
+.tb-readmore-text:hover::before {
     transform: scaleX(1);
 }
 
-.tb-readmore-text:not(:hover)::before{
+.tb-readmore-text:not(:hover)::before {
     transform-origin: right center;
 }
 
@@ -141,36 +139,34 @@ body.no-scroll {
     z-index: 1;
 }
 
-.owl-item.project-item h4.h4.owl-title:before{
+.owl-item.project-item h4.h4.owl-title:before {
     position: relative;
     display: inline-block;
     z-index: 1;
 }
 
-.owl-item.project-item h4.h4.owl-title:before{
+.owl-item.project-item h4.h4.owl-title:before {
     content: "";
     position: absolute;
     left: -4px;
     top: 12px;
     width: calc(100% + 4px);
     height: 12px;
-    background: linear-gradient(
-        to right,
+    background: linear-gradient(to right,
         #6CC5F5 0%,
         #9DD8F8 45%,
-        transparent 100%
-    );
+        transparent 100%);
     z-index: -1;
     transform: scaleX(0);
     transform-origin: left center;
     transition: transform 1s ease-out;
 }
 
-.owl-item.project-item:hover h4.h4.owl-title:before{
+.owl-item.project-item:hover h4.h4.owl-title:before {
     transform: scaleX(1);
 }
 
-.owl-item.project-item:not(:hover) h4.h4.owl-title:before{
+.owl-item.project-item:not(:hover) h4.h4.owl-title:before {
     transform-origin: right center;
 }
 
@@ -195,7 +191,10 @@ body.no-scroll {
     will-change: transform;
 }
 
-.gx-css-marquee .splide__slide{ flex:0 0 calc((100vw - 56px)/3); margin-right:14px; }
+.gx-css-marquee .splide__slide { 
+    flex: 0 0 calc((100vw - 56px)/3); 
+    margin-right: 14px; 
+}
 
 .gx-css-marquee[data-dir="right"] .splide__list {
     animation: gx-right var(--gx-dur) linear infinite;
@@ -406,6 +405,7 @@ body.no-scroll {
 .section.header.sticky.is-visible a.button.primary-color {
     background: #fff;
 }
+
 .section.header.sticky.is-visible .row-container {
     padding-top: 20px;
     padding-bottom: 20px;
