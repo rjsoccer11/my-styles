@@ -77,14 +77,8 @@ h4.h4.subtitle:before {
     bottom: 0;
     width: calc(100% + 4px);
     height: 10px;
-
-    background: linear-gradient(to right,
-        #6CC5F5 0%,
-        #9DD8F8 45%,
-        transparent 100%);
-
+    background: linear-gradient(to right,#6CC5F5 0%, #9DD8F8 45%,transparent 100%);
     z-index: -1;
-
     transform: scaleX(0);
     transform-origin: left center;
 
@@ -152,10 +146,7 @@ body.no-scroll {
     top: 12px;
     width: calc(100% + 4px);
     height: 12px;
-    background: linear-gradient(to right,
-        #6CC5F5 0%,
-        #9DD8F8 45%,
-        transparent 100%);
+    background: linear-gradient(to right,#6CC5F5 0%,#9DD8F8 45%,transparent 100%);
     z-index: -1;
     transform: scaleX(0);
     transform-origin: left center;
@@ -271,8 +262,7 @@ body.no-scroll {
     transition: opacity .28s ease;
 }
 
-.gx-item:hover .gx-zoom,
-.gx-item:focus-visible .gx-zoom {
+.gx-item:hover .gx-zoom, .gx-item:focus-visible .gx-zoom {
     opacity: 1;
 }
 
@@ -320,11 +310,6 @@ body.no-scroll {
     z-index: 1;
     width: fit-content;
 }
-
-
-
-
-
 
 .tom-button-trig.w--redirected-checked {
     background: #80d2fd;
@@ -438,8 +423,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
   --gap-line-year:     50px;
   --line-y: 90px;
 }
- /* ---- DESKTOP / TABLET (>=601px): horizontal, draggable, wheel ---- */
-  .history{ position:relative; height:auto; padding:90px 0; overflow:hidden; background:#fff; cursor:grab; }
+  .history { position:relative; height:auto; padding:90px 0; overflow:hidden; background:#fff; cursor:grab; }
   .history.is-dragging{ cursor:grabbing; user-select:none; -webkit-user-select:none; }
   .history__track{ width:max-content; will-change:transform; }
   .timeline{
@@ -462,37 +446,7 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
   .milestone__marker path{ fill:var(--marker); }
   .milestone__year{ margin:var(--gap-line-year) 0 0; font-size:21px; font-weight:800; letter-spacing:.01em; }
 
-  /* ---- MOBILE (<=600px): vertical stack, no drag/scroll ---- */
-  @media (max-width:600px){
-    /*.history{ height:auto; overflow:visible; cursor:default; padding:48px 24px; }
-    .history__track{ width:100%; transform:none !important; }
-
-    .timeline{
-      flex-direction:column; align-items:stretch; width:100%;
-      gap:75px; padding:0;
-      background:linear-gradient(var(--line),var(--line)) var(--line-x) 0 / 1.5px 100% no-repeat;
-    }
-    .timeline::before{ left:var(--line-x); top:0;   right:auto; bottom:auto; transform:translate(-50%,-50%); }  
-    .timeline::after { left:var(--line-x); top:auto; right:auto; bottom:0;   transform:translate(-50%, 50%); } 
-
-    .milestone{ flex-direction:row; align-items:center; width:100%; height:auto; text-align:left; }
-
-    .milestone__year{ order:1; flex:0 0 auto; width:64px; margin:0; text-align:right; }
-
-    .milestone__marker{
-      order:2; flex:0 0 auto; width:var(--arrow-size); overflow:visible;
-      margin:0 var(--gap-content-arrow) 0 calc(var(--gap-line-year) + var(--gap-arrow-line));
-    }
-    .milestone__marker svg{ transform:rotate(90deg); }  
-
-    .milestone__label{
-      order:3; flex:1 1 auto; display:block; height:auto !important; min-height:0;
-      max-width:none; margin:0; text-align:right; align-items:initial;
-    }
-  }*/
-
-
-
+@media (max-width:600px) {
 section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     left: -20px;
 }
@@ -534,11 +488,6 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
   will-change: transform;
 }
 
-/*html.is-banner-locked {
-  overflow: hidden;
-}*/
-
-  /* ---------- Home page: fixed, scroll-linked header ---------- */
   .header.home-nav,
   .section.header.home-nav {
     position: absolute !important;
@@ -550,15 +499,10 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     will-change: transform;
   }
 
-  /* lets the hp-section3 scroll-lock hide this header too —
-     requires STICKY_MENU_SELECTOR = '.section.header' in that script */
   .section.header.home-nav.is-scroll-locked {
     transform: translateY(-100%) !important;
   }
 
-  /* Blue background: fully transparent through the whole reveal,
-     then switches to solid the instant the border finishes passing
-     (bgLead-adjusted) — a hard cut, no fade in either direction.    */
   .header.home-nav .row-container {
     position: relative;
     z-index: 0;
@@ -567,34 +511,27 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     content: "";
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
-    background: #80D2FD;               /* = banner border-bottom blue */
+    background: #80D2FD;
     opacity: 0;
     z-index: -1;
     pointer-events: none;
   }
   .header.home-nav.bg-solid .row-container::before {
-    opacity: 1;                        /* no transition — instant cut */
+    opacity: 1; 
   }
 
-  /* Home: wordmark fades out while the banner triangle flies in */
   .header.home-nav .header-logo {
     transition: opacity .25s ease;
   }
   .header.home-nav.logo-swapped .header-logo {
-    opacity: 0;                        /* keeps its box — layout stays put */
+    opacity: 0;
   }
 
-  /* injected icon: hidden in these modes by default (the real
-     triangle flies instead); classic pages keep using it            */
   .header.home-nav .header-logo-icon,
   .section.header.inner-fixed.sticky.is-visible.scroll-reveal .header-logo-icon {
     display: none !important;
   }
 
-  /* HOME MOBILE fallback — your CSS hides the banner triangle below
-     768px, so when scrolled the compact icon appears in the bar
-     instead, crossfading with the wordmark. Driven by the triangle's
-     actual visibility, so desktop keeps the single flying logo.     */
   .header.home-nav.icon-fallback .logo-block {
     position: relative;
     display: inline-flex;
@@ -606,22 +543,19 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    height: var(--dock-h, 65px);       /* follows HOME_CFG.dockHeight */
+    height: var(--dock-h, 65px); 
     width: auto;
     opacity: 0;
     transition: opacity .25s ease;
-    pointer-events: none;              /* the logo link takes the click */
+    pointer-events: none; 
   }
   .header.home-nav.icon-fallback.logo-swapped .header-logo-icon {
     opacity: 1;
   }
-
-  /* Homepage mobile buttons row: collapses once scrolling starts */
   body.homepage .header.home-nav.nav-scrolled .row.header.mobile {
     display: none !important;
   }
 
-  /* ---------- Inner pages: layout-stable scroll-linked reveal ---- */
   .header.inner-fixed,
   .section.header.inner-fixed {
     position: fixed !important;
@@ -634,41 +568,30 @@ section.section.header.not-hp.sticky.is-visible svg.header-logo-icon {
     will-change: transform;
   }
   .section.header.inner-fixed.sticky.is-visible.scroll-reveal {
-    transform: translateY(var(--reveal-px, 0px)) !important;  /* JS-computed
-                                       pixels, not a CSS percentage — stays
-                                       correct even if something else (e.g.
-                                       your own CSS) changes the header's
-                                       rendered height mid-transition        */
-    opacity: var(--reveal, 0);      /* fades in as it slides — same progress.
-                                       Fade done sooner than the slide?
-                                       use: calc(var(--reveal, 0) * 1.5)      */
+    transform: translateY(var(--reveal-px, 0px)) !important;  
+    opacity: var(--reveal, 0); 
     transition: none !important;
   }
 
-  /* ---------- The traveling banner triangle (rides a real link) ---- */
   .logo-flying {
     display: block;
-    z-index: 1001;                     /* above the fixed header (1000) */
+    z-index: 1001;
     transform-origin: top left;
     will-change: transform;
-    transition: none !important;       /* scroll-driven, no easing lag */
+    transition: none !important;
     cursor: pointer;
-    pointer-events: auto !important;   /* the link box takes the click */
+    pointer-events: auto !important;
   }
   .logo-flying svg,
   .logo-flying img {
     display: block;
     width: 100%;
     height: 100%;
-    pointer-events: none;              /* …not the graphic inside it */
+    pointer-events: none;
   }
-  body.no-scroll .logo-flying {        /* nav menu open — stay beneath it */
+  body.no-scroll .logo-flying {
     z-index: 999;
   }
-  /* while flying, door state changes are instant (no mid-shrink swing).
-     The door's CLOSED position comes from your own CSS transform — we
-     no longer override it; the is-open class is locked out in JS so
-     the door stays shut and flush against the logo body.            */
   .logo-flying .avid-logo__door {
     transition: none !important;
   }
@@ -752,8 +675,7 @@ section.section.header.home-nav.logo-swapped a.button.primary-color {
   transition: transform 1s ease-out;
 }
 
-h4.h4.subtitle::before,
-.subtitle::before, .owsp-location::before {
+h4.h4.subtitle::before, .subtitle::before, .owsp-location::before {
   content: "";
   width: 100%;
   height: 15px;
@@ -783,12 +705,7 @@ h4.h4.subtitle::before,
     width: calc(100% + 4px);
     height: 18px;
 
-    background: linear-gradient(
-        to right,
-        #6CC5F5 0%,
-        #9DD8F8 45%,
-        transparent 100%
-    );
+    background: linear-gradient(to right,#6CC5F5 0%,#9DD8F8 45%,transparent 100%);
 
     z-index: -1;
 
@@ -806,8 +723,7 @@ h4.h4.subtitle::before,
     transform-origin: right center;
 }
 
-h4.h4.subtitle.in-view::before,
-.subtitle.in-view::before, .owsp-location.in-view::before{
+h4.h4.subtitle.in-view::before, .subtitle.in-view::before, .owsp-location.in-view::before{
   transform: scaleX(1);
 }
 
@@ -1031,13 +947,7 @@ body.menu-open{
     margin-left: 0px;
 }
 .slider-image {
-  clip-path: polygon(
-    0% 0%,
-    100% 0%,
-    100% 100%,
-    20% 100%,
-    0% 70%
-  );
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,20% 100%,0% 70%);
 }
 
   .tb-carousel .image {
